@@ -1,7 +1,14 @@
 let element = document.querySelector('.two');
-let detail = document.querySelector('.two');
+let detail = document.querySelector('#change');
 
-element.addEventListener('click', function() {
+detail.addEventListener('click', function() {
   // Update the detail text
-  detail.textContent = 'New detail!';
+  element.textContent = 'No other Plan!';
 });
+
+let payment = document.querySelector('.button');
+let bottom = document.querySelector('.bottom')
+payment.addEventListener('click', function(){
+    bottom.textContent = 'Order Placed Successfully!!'
+}
+)
