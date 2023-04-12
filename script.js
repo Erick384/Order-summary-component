@@ -4,7 +4,11 @@ let detail = document.querySelector("#change");
 let payment = document.querySelector(".button");
 let bottom = document.querySelector(".bottom");
 payment.addEventListener("click", function () {
-  bottom.textContent = "Order Placed Successfully!!";
+  bottom.textContent = "Order Placed Successfully!!" ;
+  
+
+// Add the link element to the page
+document.getElementById(".bottom").appendChild(link);
 });
 
 let options = document.querySelector("#my-options");
